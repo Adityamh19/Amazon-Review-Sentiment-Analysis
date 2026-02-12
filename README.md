@@ -16,18 +16,32 @@ This project solves the problem of "Class Imbalance" in customer reviews (where 
 * **Custom Stop Words:** Removed ambiguous words like "product" and "quality" to reduce bias.
 * **Real-Time Inference:** Includes a `app.py` script to test reviews instantly in a web interface.
 
-## 🏁 How to Run
+## 🗺️ Project Pipeline
+<img width="271" height="790" alt="Screenshot 2026-02-12 161844" src="https://github.com/user-attachments/assets/ac385339-9365-4511-89a8-aee3e096ab59" />
+
+---
+
+## 🌐 Live Demo
+You can try out the live web application here:  
+**[Amazon Review Sentiment Analyzer](https://amazon-review-sentiment-analysis-hdmycqhcr4ccu2koqpvskp.streamlit.app/)**
+
+### 💤 Important Note on App Availability
+If you are accessing the live demo and the website appears to be "sleeping" or taking a moment to load:
+* Please click the **"Yes, get this back up!"** button on the screen.
+* This will wake up the server and restore the sentiment analysis tool within a few seconds.
+
+---
+
+## 🏁 How to Run Locally
 1.  Clone the repository:
     ```bash
     git clone [https://github.com/YOUR-USERNAME/amazon-sentiment-analysis.git](https://github.com/YOUR-USERNAME/amazon-sentiment-analysis.git)
     ```
 2.  Install dependencies:
     ```bash
-    pip install pandas scikit-learn streamlit joblib seaborn
+    pip install -r requirements.txt
     ```
 3.  Run the App:
     ```bash
     streamlit run app.py
     ```
-## Flowchart
-   <img width="271" height="790" alt="Screenshot 2026-02-12 161844" src="https://github.com/user-attachments/assets/ac385339-9365-4511-89a8-aee3e096ab59" />
