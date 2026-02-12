@@ -29,3 +29,5 @@ This project solves the problem of "Class Imbalance" in customer reviews (where 
     ```bash
     streamlit run app.py
     ```
+## Flowchart
+   <img width="271" height="790" alt="Screenshot 2026-02-12 161844" src="https://github.com/user-attachments/assets/ac385339-9365-4511-89a8-aee3e096ab59" />
